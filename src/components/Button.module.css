@@ -1,0 +1,16 @@
+.button {
+  /* Color */
+  composes: bgGrayAsparagus from "../index.css";
+  composes: white from "../index.css";
+  /* Font */
+  font-size: 1rem;
+  font-weight: 900;
+  /* Size */
+  width: 100%;
+  /* Padding */
+  padding: 1em;
+  /* Border */
+  border: solid 1px #d9d9d9;
+  /* Other */
+  cursor: pointer;
+}

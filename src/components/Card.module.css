@@ -1,0 +1,14 @@
+.card {
+  /* Size */
+  height: 300px;
+  /* Border */
+  border: 1px solid #d9d9d9;
+  /* Other */
+  cursor: pointer;
+  overflow: hidden;
+}
+
+img {
+  /* Size */
+  width: 100%;
+}

@@ -1,0 +1,41 @@
+/* --------------------------------- Colors --------------------------------- */
+
+.black {
+  color: #000000;
+}
+.bgWhite {
+  background-color: #ffffff;
+}
+.white {
+  color: #ffffff;
+}
+.bgGrayAsparagus {
+  background-color: #525650;
+}
+.grayAsparagus {
+  color: #525650;
+}
+.bgWildSand {
+  background-color: #f7f7f7;
+}
+
+/* ------------------------------- Base rules ------------------------------- */
+
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans&family=Roboto&display=swap");
+
+body {
+  /* Color */
+  color: #525650;
+  /* Font */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  font-family: "Roboto", sans-serif;
+  /* Margin */
+  margin: 0;
+}
+
+h1,
+h2 {
+  /* Font */
+  font-family: "Open Sans", sans-serif;
+}

@@ -1,0 +1,17 @@
+.gridContainer {
+  /* Layout */
+  display: grid;
+  grid-template-columns: auto;
+  gap: 1rem;
+}
+
+/* ------------------------------- Responsive ------------------------------- */
+
+/* lg - Large devices(laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) {
+  .gridContainer {
+    /* Layout */
+    display: grid;
+    grid-template-columns: auto auto;
+  }
+}
