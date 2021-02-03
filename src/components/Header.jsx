@@ -39,7 +39,7 @@ export default function Header() {
             <img src="/images/logo.png" alt="Logo" />
           </div>
 
-          <hr />
+          {/* <hr />
 
           <h2>How it works ?</h2>
 
@@ -63,7 +63,7 @@ export default function Header() {
             rel="noreferrer"
           >
             START
-          </button>
+          </button> */}
         </div>
       </div>
     </header>
