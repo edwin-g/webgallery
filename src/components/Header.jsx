@@ -5,10 +5,10 @@ import styles from "./Header.module.css";
 // Icons
 import { AiOutlineMenu, AiOutlineClose } from "react-icons/ai";
 
-function handleClick(params) {
-  return (window.location.href =
-    "mailto:webgallery@protonmail.com?subject=I%20need%20a%20website.&body=Hi,%20I%20want%20to%20buy%20a%20website!");
-}
+// function handleClick(params) {
+//   return (window.location.href =
+//     "mailto:webgallery@protonmail.com?subject=I%20need%20a%20website.&body=Hi,%20I%20want%20to%20buy%20a%20website!");
+// }
 
 export default function Header() {
   const [sidebar, setSidebar] = useState(false);
