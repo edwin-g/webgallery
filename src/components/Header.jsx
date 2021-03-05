@@ -27,7 +27,8 @@ export default function Header() {
         />
         <div className={styles.toolbarTitle}>WEBGALLERY</div>
       </div>
-      {/* Sidebar */}
+
+      {/* Mobile Sidebar */}
       <div className={sidebar ? styles.sidebarOpen : styles.sidebar}>
         <div className={styles.sidebarContainer}>
           <AiOutlineClose

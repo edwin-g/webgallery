@@ -5,6 +5,7 @@
   composes: bgWildSand from "../index.css";
   /* Size */
   width: 100%;
+  height: 3.75rem;
   /* Position */
   position: fixed;
   top: 0;
@@ -21,6 +22,7 @@
   font-size: 1.5rem;
   /* Padding */
   padding: 1rem;
+  cursor: pointer;
 }
 
 .toolbarTitle {
@@ -71,6 +73,7 @@
 
 .closeBtn {
   font-size: 1.5rem;
+  cursor: pointer;
 }
 
 .sidebarLogo {
@@ -115,32 +118,6 @@ p {
 
 /* lg - Large devices(laptops/desktops, 992px and up) */
 @media only screen and (min-width: 992px) {
-  .toolbar {
-    display: none;
-  }
-
-  .sidebar {
-    /* Position */
-    left: 0;
-    /* Size */
-    width: 25%;
-    /* Others */
-    box-sizing: border-box;
-  }
-
-  .sidebarContainer {
-    /* Position */
-    left: 0;
-  }
-
-  .closeBtn {
-    display: none;
-  }
-
-  .sidebarLogo {
-    width: 10rem;
-  }
-
   hr {
     margin: 2rem 0;
   }

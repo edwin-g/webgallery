@@ -10,11 +10,8 @@ main {
 /* lg - Large devices(laptops/desktops, 992px and up) */
 @media only screen and (min-width: 992px) {
   main {
-    /* Size */
-    width: 75%;
     /* Margin */
-    margin-top: 0;
-    margin-left: 25%;
+    margin-top: 3.75em;
     /* Padding */
     padding: 1rem;
     box-sizing: border-box;
