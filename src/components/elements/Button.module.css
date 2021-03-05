@@ -1,7 +1,7 @@
 .button {
   /* Color */
-  composes: bgGrayAsparagus from "../index.css";
-  composes: white from "../index.css";
+  composes: bgGrayAsparagus from "../../index.css";
+  composes: white from "../../index.css";
   /* Font */
   font-size: 1rem;
   font-weight: 900;

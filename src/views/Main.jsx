@@ -3,8 +3,8 @@ import React, { useState } from "react";
 // CSS
 import styles from "./Main.module.css";
 // Components
-import Grid from "./Grid";
-import Preview from "./Preview";
+import Grid from "../components/sections/Grid";
+import Preview from "../components/elements/Preview";
 
 export default function Main() {
   const [imageData, setimageData] = useState(false);

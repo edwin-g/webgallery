@@ -3,7 +3,7 @@ import React from "react";
 // CSS
 import styles from "./Grid.module.css";
 // Components
-import Card from "./Card";
+import Card from "../elements/Card";
 
 export default function Grid(props) {
   const { onClickCard } = props;

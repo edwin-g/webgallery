@@ -2,7 +2,7 @@
 
 .toolbar {
   /* Color */
-  composes: bgWildSand from "../index.css";
+  composes: bgWildSand from "../../index.css";
   /* Size */
   width: 100%;
   height: 3.75rem;
@@ -62,7 +62,7 @@
 
 .sidebarContainer {
   /* Color */
-  composes: bgWildSand from "../index.css";
+  composes: bgWildSand from "../../index.css";
   /* Size */
   height: inherit;
   /* Padding */
@@ -111,7 +111,7 @@ p {
 }
 
 .startBtn {
-  composes: button from "./Button.module.css";
+  composes: button from "../elements/Button.module.css";
 }
 
 /* ------------------------------- Responsive ------------------------------- */
